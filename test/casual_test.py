@@ -1,6 +1,6 @@
 from src.randomized_iterative_affine_cipher import RandomizedIterativeAffineCipher
 
-key = RandomizedIterativeAffineCipher.generate_keypair(key_round=1)
+key = RandomizedIterativeAffineCipher.generate_keypair(key_round=5)
 
 a = 1123.53125
 b = -513241.7312651
